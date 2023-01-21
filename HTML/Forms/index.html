@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- anchor tab send get request ,, where as form send get and post request  -->
+
+<body>
+    <h1>Forms</h1>
+    <!-- Query string paramaerter -->
+    <form method="POST">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username_x" placeholder="username">
+        </div>
+        <br>
+        <div>
+            <label for="password">password</label>
+            <input type="password" id="password" name="Password_x" placeholder="Password">
+        </div>
+        <br>
+        <button type="submit"> Login</button>
+
+    </form>
+
+    <h2>Youtube</h2>
+    <form action="https://www.youtube.com/results" method="GET">
+        <div>
+            <label for="search">Search</label>
+            <input type="text" id="search" name="search_query">
+            <button type="submit">Search</button>
+        </div>
+
+        <br>
+    </form>
+    <hr>
+    <form action="" method="get">
+        <fieldset> 
+        <legend> Student Form </legend>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstname" id=firstName>
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastName" id="lastname">
+        <br>
+        <label for ="DOB">Date of Birth</label>
+        <input type ="date" name = "D_O_B" id ="DOB">
+        <button type="submit">Submit</button>
+    </fieldset>
+    
+        </form>
+
+
+</body>
+
+</html>

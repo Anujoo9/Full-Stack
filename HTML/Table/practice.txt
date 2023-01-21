@@ -1,0 +1,78 @@
+Skip to content
+Product
+Solutions
+Open Source
+Pricing
+Search
+Sign in
+Sign up
+sabeelhps
+/
+CB-Noida-Web-Jan8
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+CB-Noida-Web-Jan8/Lecture-3/PokemonTable-Exercise/pokemondata.txt
+@sabeelhps
+sabeelhps Lecture-3: Pokemon Excercise
+Latest commit 9d13dc7 6 minutes ago
+ History
+ 1 contributor
+36 lines (27 sloc)  658 Bytes
+
+
+Name
+	Bulbasaur
+Image
+	http://img4.wikia.nocookie.net/__cb20140328190757/pokemon/images/thumb/2/21/001Bulbasaur.png/200px-001Bulbasaur.png
+Type
+	Grass/Poison
+Evolves To
+	Ivysaur
+	Wartortle 
+
+
+Name
+	Charmander
+Image
+	http://img4.wikia.nocookie.net/__cb20140724195345/pokemon/images/thumb/7/73/004Charmander.png/200px-004Charmander.png
+Type
+	Fire
+Evolves To
+	Charmeleon
+	http://pokemon.wikia.com/wiki/Charmeleon 
+	
+
+Name
+	Squirtle
+Image
+	http://img1.wikia.nocookie.net/__cb20140328191525/pokemon/images/thumb/3/39/007Squirtle.png/200px-007Squirtle.png
+Type
+	Water
+Evolves To
+	Wartortle
+	http://pokemon.wikia.com/wiki/Wartortle
+
+
+
+
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+CB-Noida-Web-Jan8/pokemondata.txt at master · sabeelhps/CB-Noida-Web-Jan8 · GitHub
