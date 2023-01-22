@@ -1,0 +1,27 @@
+h1{
+    color:brown
+}
+h1:hover{
+    background-color: lightgreen;
+    
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    
+}
+
+/* sudo class  */
+div:hover{
+    border-radius: 50%;
+    cursor: pointer;
+}
+input:focus{
+    background-color: lightblue;
+}
+
+a:visited{
+    color:red;
+}
+

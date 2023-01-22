@@ -1,0 +1,41 @@
+ /* Inline > id > class > element */
+ /* Element Selector */
+h2{
+    color:aqua;
+}
+
+ /* ID selector  more specific */  
+ #ironman{
+    font-weight: bold;
+    color:blue;
+ }
+
+ #heading{
+    color : lightcoral;
+    border: 3px dashed black
+ }
+
+ /* Class selector */
+
+ .Fav_movie{
+    color:chartreuse;
+    font: 40x;
+    background-color: chocolate;
+ }
+
+ .movie{
+    color:green;
+ }
+
+ /* Attribute selector */
+
+ input[type = "text"]{ 
+    background-color: blue;
+    color: orange;
+ }
+ 
+ /* Universal selector */
+
+ *{
+    border : 1px solid;
+ }

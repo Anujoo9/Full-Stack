@@ -1,0 +1,34 @@
+/* Descendent combinator */
+div section p strong{
+
+    color:red;
+}
+
+/* Child combinator - immediate child of ul */ 
+ul >li {
+    border-top: 3px solid red;
+}
+
+/* Adjacent sibling */
+h2+p{
+    text-decoration: line-through;
+}
+
+/* General Sibiling - selects all after that sibling*/ 
+article img ~ p{
+    color : green;
+}
+p[class = "one two"]{
+    color:blueviolet;
+}
+
+
+/* Both are same */
+.one.two{
+    color:chartreuse
+}
+
+.one{
+    color:aqua
+}
+
