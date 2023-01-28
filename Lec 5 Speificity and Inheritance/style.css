@@ -1,0 +1,39 @@
+h1{
+    color:red;
+}
+
+#heading{
+    color:green;
+}
+
+.para1{
+    color:aqua;
+    font-size: 30px;
+}
+.para2{
+    font-size: 30px;
+    border:2px solid black;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+section{
+    color:purple;
+    font-size:40px;
+}
+
+ul>li{
+    border-top:  3px solid orange;
+}
+
+ol{
+    border-top:inherit;
+}
+
+ol>li{
+    border-top:inherit;
+    /* border-top: initial; */
+    /* border-top: revert; */
+}

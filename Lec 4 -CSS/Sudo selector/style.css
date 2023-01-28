@@ -17,6 +17,7 @@ div:hover{
     border-radius: 50%;
     cursor: pointer;
 }
+
 input:focus{
     background-color: lightblue;
 }

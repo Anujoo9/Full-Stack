@@ -1,0 +1,29 @@
+p{
+    /* Dimensentions - height width */
+    width:200px;
+
+
+    /* border  */
+    border : 3px solid blue;
+
+
+    /* margin  */
+    /* between 2 elements */
+    /* margin:40px  */ 
+    /* top bottom left and right */
+    /* margin:20px 30 px 40 px */ 
+    /* margin:20px 30 px ; */
+    margin : 20px auto;   /*  auto works on left and right and gives equal margin */
+
+
+    /* padding  */
+    /* Spacing within the element */
+    /* padding:30px;
+    padding-top:30px;
+    padding-bottom:10px;
+    padding-left:40px;
+    padding-right:50px; */
+    padding:30px 40px 50px 60px;
+    
+
+}

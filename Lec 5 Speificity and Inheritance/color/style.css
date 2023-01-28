@@ -1,0 +1,20 @@
+div{
+    border: 20px;
+    width: 32%;
+  height: 140px;
+}
+div:nth-of-type(1){
+    background-color: red;
+}
+div:nth-of-type(2){
+    background-color: #00bfff;
+}
+div:nth-of-type(3){
+    background-color: rgb(13,200,2);
+}
+
+div:nth-of-type(4){
+    background-color: rgba(134,0,230,0.9);
+}
+
+/* Coolors site */
