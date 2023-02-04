@@ -1,0 +1,50 @@
+section{
+    width: 80vw;
+    margin:30px auto;
+    height :500px;
+    border: 2px solid black;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* flex-direction:row-reverse; */
+    /* flex-direction:column-reverse; */
+    /* justify-content: flex-start;/*by default*/
+    /* justify-content: flex-end;  */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+
+     /* align-items: flex-start; */
+     /* align-items: center; */
+     /* align-items: flex-start; */
+     /* align-items: flex-end; default property is strech if we don't mention any height */
+
+     /* align-content: baseline; */
+
+     flex-wrap:center;
+     /* flex-wrap:wrap-reverse; */
+}
+h1{
+    text-align: center;
+}
+div{
+    
+        border: 2px solid black;
+        width: 120px;
+        height :120px;
+        border: 2px solid black;
+        background-color: aqua;
+       
+}
+
+div:nth-of-type(5){
+    flex-grow: 1;
+    flex-basis: 250px;
+    flex-shrink: 3;
+}
+
+div:nth-of-type(1){
+    flex-grow: 1;
+    flex-shrink: 1;
+}

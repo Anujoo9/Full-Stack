@@ -1,0 +1,23 @@
+
+body{
+    height: 100vh;
+    
+    /* border: 2px solid black; */
+    display:flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section{
+    height: 200px;
+    width: 200px;
+    border-top: 30px solid red;
+    border-left : 30px solid pink;
+    border-right : 30px solid green;
+    border-bottom : 30px solid blue;
+    border-radius : 50%;
+   
+}
+

@@ -1,0 +1,47 @@
+section{
+    width :90vw;
+    
+    border: 3px solid black;
+    padding: 1rem;
+    font-size: 1.3 rem;
+    margin: 10px auto;
+}
+
+h2{
+    font-size: 6rem;
+    text-align: center;
+
+}
+
+/* @media screen and (width > 792px){
+    h2{
+        color : green;
+        font-size: 5rem;
+    }
+    
+}
+
+@media screen and (width < 792px){
+    h2{
+        color : red;
+        font-size: 3rem;
+    }
+    
+} */
+
+/* @media screen and (orientation : portrait) {
+    p{
+        color: red;
+        text-transform: uppercase;
+        text-decoration: line-through;
+    }
+    
+} */
+
+/* and or and */
+@media scree and (orientation:potrait),((width <= 800px) and (width>=700px)){
+    h2{
+        border: 3px solid black;
+        background-color: chartreuse;
+    }
+}

@@ -1,0 +1,46 @@
+div{
+    height :150px;
+    width :150px;
+    border : 3px solid black;
+    display: inline-block;
+}
+
+#static #middle{
+    position:static;
+    /* Below are the 4 off-set properties ,, static  has no impact of off set properties */
+    top : 100px;
+    left : 150px;
+    right : 150px;
+    bottom: 150px;
+
+}
+
+#relative #middle{
+    /* Realtive so postion is changing from its inital position */
+    position: relative;
+
+    /* off set */
+    top:20px;
+    left : 50px;
+
+}
+/* 1:16 session 5 */
+
+#absolute{
+
+    position:relative;
+    border : 2px solid black;
+}
+#absolute #middle{
+    position:absolute;
+    top:0px;
+    left :0px;
+}
+
+#fixed #middle{
+position :fixed;
+top :10px;
+left :0px;
+}
+
+/* 1:33 */

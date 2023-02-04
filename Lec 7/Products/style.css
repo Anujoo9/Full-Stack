@@ -1,0 +1,11 @@
+section {
+    color:purple;
+    background-color: lightcyan;
+}
+
+article{
+    border: 2px solid black;
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: center;
+}

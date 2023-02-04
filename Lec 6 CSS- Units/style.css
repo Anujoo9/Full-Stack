@@ -1,0 +1,49 @@
+
+article{
+    font-size:100px;
+}
+
+article ul{
+    font-size:50%;
+    /* percent is generally used for height and width */
+}
+
+section:nth-of-type(1){
+    height:100px;
+    width:100px;
+    border:2px solid black;
+
+}
+
+
+section:nth-of-type(1) div{
+    height: 100%;
+    width: 100%;
+    border: 2px solid red;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+
+section:nth-of-type(2){
+    font-size:20px;
+
+}
+section:nth-of-type(2) ul{
+    /* font-size:2em; with respect to parent */
+    font-size:2rem; 
+    /* looks at default html font size i.e 16px , so 2rem =32px */
+
+}
+
+section:nth-of-type(3){
+    height:40vh;
+    /* view height and view width  - used for dimensions*/
+    width:70vw;
+    /* vh and will be maintained ,, can be used to make resposnive website */
+    background-color: palegoldenrod;
+    border:2px solid #ccc;
+}
+
+/* 39:46 */
+
+

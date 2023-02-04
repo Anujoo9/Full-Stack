@@ -1,0 +1,31 @@
+ul{
+    border : 2px solid black;
+    background-color: black;
+    
+    padding :0px;
+    }
+    
+    li{
+        color : white;
+        list-style-type: none;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+       
+    
+       
+        
+    
+    }
+    
+    @media screen and (orientation:potrait),(width >= 500px) {
+    ul{
+        color : aqua;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        justify-content: space-around;
+        /* align-items: flex-start; */
+        
+        
+    }
+    }

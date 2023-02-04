@@ -1,0 +1,15 @@
+section{
+    width: 80vw;
+    margin: 20px auto;
+    border : 2px solid lightgrey;
+    padding:1rem;
+    
+
+}
+
+section img{
+    float :right;
+}
+.special_para{
+    clear : float;
+}
