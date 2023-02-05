@@ -1,0 +1,30 @@
+section {
+    height : 150px;
+    width : 150px;
+    margin: 10px auto;
+    /* border: 2px solid black; */
+    animation-name:bounce;
+    animation-duration:1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+ 
+}
+
+section img{
+    height :100%;
+    width :100%;
+   
+   
+
+}
+
+@keyframes bounce {
+    
+    100%{
+        transform : translateY(600px) rotateZ(2turn);
+        /* trnaslateY for falling */
+    }
+    
+}

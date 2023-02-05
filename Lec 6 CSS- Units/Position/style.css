@@ -12,7 +12,6 @@ div{
     left : 150px;
     right : 150px;
     bottom: 150px;
-
 }
 
 #relative #middle{
@@ -42,5 +41,6 @@ position :fixed;
 top :10px;
 left :0px;
 }
+
 
 /* 1:33 */

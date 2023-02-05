@@ -1,0 +1,39 @@
+section{
+    width:300px ;
+    height:20px;
+    border: 4px solid black;
+    background-color: rebeccapurple;
+    animation-name: slider;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    /* animation-delay: 1;
+    animation-direction: reverse; */
+    animation-direction: alternate-reverse ;
+}
+
+@keyframes slider {
+    25%{
+        height: 100px;
+        background-color: aqua;
+    }
+    50%{
+        height: 200px;
+        background-color: lightgreen;
+    
+    }
+    75%{
+        height: 300px;
+        background-color: coral;
+    }
+    
+    100%{
+        height: 400px;
+        background-color: pink;
+    }
+    
+    
+}
+
+section:hover{
+    animation-play-state: paused;
+}
