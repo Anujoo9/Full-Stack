@@ -1,0 +1,15 @@
+section{
+    border: 2px solid white;
+    
+    height: 100vw;
+    
+}
+.grid{
+    display: grid;
+    
+    grid-template-columns: 900px 570px;
+
+}
+.S_idebar{
+    border: 1px solid white;
+}

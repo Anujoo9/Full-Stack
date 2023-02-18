@@ -1,8 +1,8 @@
 div{
     height:100px;
     width:100px;
-    border-top: 12px solid black;
-    border-right:12px solid black;
+    border-top: 12px solid red;
+    border-right:12px solid green;
     border-bottom:12px solid black;
     border-left:12px solid rgb(241, 231, 231);
     border-radius: 50%;
@@ -10,7 +10,14 @@ div{
     animation-name: loader; 
     animation-iteration-count: infinite;
     animation-timing-function: linear;  
+    
 }
+
+/* section{
+    display: flex;
+    justify-content: baseline;
+    align-items: left;
+} */
 
 body{
     height: 100vh;
