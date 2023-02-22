@@ -1,15 +1,88 @@
-section{
-    border: 2px solid white;
-    
+section {
+    border: 2px solid #2D3A3A;
+
     height: 100vw;
-    
-}
-.grid{
-    display: grid;
-    
-    grid-template-columns: 900px 570px;
 
 }
-.S_idebar{
-    border: 1px solid white;
+
+.gridX {
+
+    display: grid;
+
+    grid-template-columns: 980px 470px;
+
+}
+
+div .grid {
+    grid-template-columns: 500px 700px;
+}
+
+div .griD {
+    grid-template-columns: 450px 400px;
+}
+
+.S_idebar {
+    border-left: 1px dotted #2D3A3A;
+    margin-top: 10px;
+}
+
+
+
+form img {
+    padding: 0px;
+    margin-right: 10px;
+
+}
+
+nav button {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+
+form input {
+    /* align-items: left; */
+    padding: 0px;
+    margin-right: 100px;
+
+}
+
+
+div ol li {
+    color: white;
+    margin: 30px;
+    border: 0px;
+}
+
+div li img {
+    border: 0px;
+    margin-left: 10px;
+}
+
+
+div li {
+    list-style: none;
+}
+
+
+.artist-container {
+    
+    display: flex;
+    /* flex-wrap: nowrap; */
+    overflow-x: auto;
+    /* overflow-y: auto; */
+    margin: 0px;
+  
+
+  }
+
+#btnGroupDrop1 {
+    margin-left: 200px;
+    padding: 20px;
+    color: aqua;
+}
+
+li img span {
+    margin: 100000px;
 }
