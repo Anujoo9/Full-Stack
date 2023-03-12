@@ -1,0 +1,14 @@
+parseInt(1000.332324)
+1000
+
+parseFloat(99.99)
+99.99
+parseInt("234234.3434ddfdsfsdf")
+234234
+
+
+typeof 2434234
+'number'
+
+
+https://htmlcheatsheet.com/js/

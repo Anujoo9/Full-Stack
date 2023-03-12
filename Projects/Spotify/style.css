@@ -86,3 +86,13 @@ div li {
 li img span {
     margin: 100000px;
 }
+
+.M_ain img:hover {
+    transform: scale(1.1);
+    
+}
+
+/* Hide scroll bar */
+.artist-container::-webkit-scrollbar{
+    display:none;
+}
