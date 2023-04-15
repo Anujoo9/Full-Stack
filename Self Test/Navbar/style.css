@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    margin: 15px;
+    font-size: 3em;
+    color: white;
+}
+
+div{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
