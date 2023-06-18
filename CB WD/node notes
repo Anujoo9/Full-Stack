@@ -1,0 +1,5 @@
+npm i -g nodemon
+npm init -y   || npm init
+npm i express
+node app.js
+nodemon app.js

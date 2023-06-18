@@ -1,0 +1,22 @@
+[
+    {
+        "name": "mango",
+        "quantity": 2
+    },
+    {
+        "name": "chiku",
+        "quantity": 1
+    },
+    {
+        "name": "orange",
+        "quantity": 2
+    },
+    {
+        "name": "Banana",
+        "quantity": 3
+    },
+    {
+        "name": "apple",
+        "quantity": 6
+    }
+]
