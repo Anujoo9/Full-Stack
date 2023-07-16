@@ -7,7 +7,7 @@ const app = require('./app');
         await Database.connect();
         console.log('DB Connection Open!');
         app.listen(port, () => {
-            console.log(`Server started at port ::: ${port}`);
+            console.log(`Server started at port :::: ${port} `);
         });
     } catch (err) {
         await Database.disconnect();

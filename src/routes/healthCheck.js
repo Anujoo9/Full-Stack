@@ -1,15 +1,9 @@
 const express = require('express');
-
+const healthCheckController = require('../controllers/healthCheck');
 const router = express.Router();
 
-router.get('/echo', (req, res) => {
-    console.log('Received Echo');
-    res.send('Recived Echo');
-});
+router.get('/echo', healthCheckController.echo);
 
-router.get('/healthcheck', (req, res) => {
-    console.log('Received health check');
-    res.send('Received Echo');
-});
+router.get('/healthcheck', healthCheckController.healthcheck);
 
 module.exports = router;
